@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "vanakkam",
+        "re:\\bgood\\s*(morning|evening|afternoon)\\b"
+      ],
+      "response": "Hello! 👋 How can I assist you today?"
+    },
+    {
+      "tag": "college",
+      "patterns": [
+        "college",
+        "exam",
+        "assignment",
+        "project"
+      ],
+      "response": "Need study help? I can guide with notes, code snippets, and explanations 📚"
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "python",
+        "flask",
+        "pandas",
+        "numpy"
+      ],
+      "response": "Python gang! 🐍 Ask me about Python, Flask APIs, or quick examples."
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you"
+      ],
+      "response": "Anytime! 🙌 Happy to help."
+    }
+  ]
+}

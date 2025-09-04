@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Chatbox AI</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <div class="app">
+    <div class="card">
+      <div class="header">
+        <div class="title">🤖 Mini Chatbox AI</div>
+        <div class="user">
+          <label for="userId">User:</label>
+          <input id="userId" type="text" placeholder="guest" />
+          <button id="loadHistory">History</button>
+        </div>
+      </div>
+
+      <div id="chatWindow" class="chat-window"></div>
+
+      <div class="input-bar">
+        <input id="messageInput" type="text" placeholder="Type your message..." autofocus />
+        <button id="sendBtn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
